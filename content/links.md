@@ -6,4 +6,4 @@
 
 ## FOAFsters
 
-\*folks that spent time on foaf-dev
+_folks that spent time on foaf-dev_
