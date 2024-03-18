@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:email="http://www.w3.org/2000/04/maillog2rdf/email#" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:s="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://www.w3.org/2000/04/maillog2rdf/email#addr-spec">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/04/maillog2rdf/email#addr-spec">
+    <s:label>Address Specification</s:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/04/maillog2rdf/email#cc">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/04/maillog2rdf/email#cc">
+    <s:label>Carbon Copy (cc)</s:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/04/maillog2rdf/email#date">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/04/maillog2rdf/email#date">
+    <s:label>Date</s:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/04/maillog2rdf/email#envelopeFrom">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/04/maillog2rdf/email#envelopeFrom">
+    <s:label>envelopeFrom</s:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/04/maillog2rdf/email#from">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/04/maillog2rdf/email#from">
+    <s:label>From</s:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/04/maillog2rdf/email#phrase">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/04/maillog2rdf/email#phrase">
+    <s:label>Phrase</s:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/04/maillog2rdf/email#subject">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/04/maillog2rdf/email#subject">
+    <s:label>Subject</s:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/04/maillog2rdf/email#to">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/04/maillog2rdf/email#to">
+    <s:label>To</s:label>
+  </rdf:Description>
+</rdf:RDF>

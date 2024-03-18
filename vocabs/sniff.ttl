@@ -1,0 +1,32 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://www.w3.org/2000/10/swap/util/sniffSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix log: <http://www.w3.org/2000/10/swap/log#> .
+@prefix s: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix str: <http://www.w3.org/2000/10/swap/string#> .
+
+<file:///home/danny/foaf-archive/vocabs/temp/sniffSchema>
+    dc:description """
+Sniff a schema from some RDF data.
+""", "$Id: sniffSchema.rdf,v 1.4 2002/07/18 05:39:40 connolly Exp $" ;
+    dc:relation <file:///home/danny/foaf-archive/vocabs/temp/sniffSchema>, <file:///home/danny/foaf-archive/vocabs/temp/sniffSchema.rdf> .
+
+<file:///home/danny/foaf-archive/vocabs/temp/sniffSchema#0_work>
+    log:forAll :C, :P, :T, :X .
+
+:domainIntersects
+    a rdf:Property ;
+    s:label "domain intersects" .
+
+:intersectsDomainOf
+    a rdf:Property ;
+    s:label "intersects domain of" .
+
+:label
+    a rdf:Property ;
+    s:label "label?" .
+
+:rangeIntersects
+    a rdf:Property ;
+    s:label "range intersects" .
+

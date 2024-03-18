@@ -1,0 +1,36 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT DISTINCT ?label WHERE
+{
+    {
+    ?class a rdfs:Class ;
+        rdfs:label ?label .
+    }
+    UNION
+    { 
+    ?property a rdf:Property ;
+        rdfs:label ?label . 
+    }
+    UNION
+    { 
+    ?owlC a owl:Class ;
+        rdfs:label ?label . 
+    }
+    UNION
+    {
+    ?owlOP a owl:ObjectProperty ;
+        rdfs:label ?label .
+    }
+    UNION
+    { 
+    ?owlDP a owl:DatatypeProperty ;
+        rdfs:label ?label . 
+    }
+    UNION
+    { 
+    ?owlAP  a owl:AnnotationProperty ;
+        rdfs:label ?label . 
+    }
+}

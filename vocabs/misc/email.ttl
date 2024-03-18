@@ -1,0 +1,120 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://www.w3.org/2000/10/swap/pim/email#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix log: <http://www.w3.org/2000/10/swap/log#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix s: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ss: <http://www.w3.org/2000/10/swap/util/sniffSchema#> .
+@prefix str: <http://www.w3.org/2000/10/swap/string#> .
+
+<file:///home/danny/foaf-archive/vocabs/temp/email>
+    s:seeAlso <file:///home/danny/foaf-archive/vocabs/util/sniffSchema.n3>, <http://www.faqs.org/rfcs/rfc822.html> ;
+    owl:versionInfo "$Id: email.rdf,v 1.7 2005/01/03 19:25:13 connolly Exp $" .
+
+:Agent
+    a owl:Class ;
+    s:comment "\"AGENT (person,  system  or  process)\" -- RFC822 4.4.2" ;
+    s:label "Agent" .
+
+:Mailbox
+    a owl:Class ;
+    s:label "Mailbox" .
+
+:Message
+    a owl:Class ;
+    s:label "Message" .
+
+:cc
+    a rdf:Property ;
+    s:domain :Message ;
+    s:label "cc" ;
+    s:range :Agent .
+
+:date
+    a owl:FunctionalProperty ;
+    s:comment "unmodified date header field value" ;
+    s:domain :Message ;
+    s:label "date" ;
+    ss:rangeIntersects s:Literal .
+
+:date_iso
+    a owl:FunctionalProperty ;
+    s:comment "date header field converted to YYYY-MM-DDTHH:MM:SSZ form" ;
+    s:label "date_iso" ;
+    ss:rangeIntersects s:Literal .
+
+:from
+    a rdf:Property ;
+    s:domain :Message ;
+    s:label "from" ;
+    s:range :Agent .
+
+:mbox
+    a owl:InverseFunctionalProperty ;
+    s:domain :Agent ;
+    s:label "mbox" ;
+    s:range :Mailbox .
+
+:phrase
+    a rdf:Property ;
+    s:comment "note handling of non-ascii chars" ;
+    s:domain :Agent ;
+    s:label "phrase" ;
+    s:range s:Literal .
+
+:received_iso
+    a rdf:Property ;
+    s:domain :Message ;
+    s:label "received_iso" ;
+    ss:rangeIntersects s:Literal .
+
+:recipients
+    a rdf:Property ;
+    s:comment "@@not in RFC822. artificial. explain/motivate?" ;
+    s:domain :Message ;
+    s:label "recipients" ;
+    ss:rangeIntersects s:Literal .
+
+:references
+    a rdf:Property ;
+    s:domain :Message ;
+    s:label "references" ;
+    s:range :Message .
+
+:senders
+    a rdf:Property ;
+    s:comment "@@not in RFC822. artificial. explain/motivate?" ;
+    s:domain :Message ;
+    s:label "senders" ;
+    ss:rangeIntersects s:Literal .
+
+:subject
+    a owl:FunctionalProperty ;
+    s:comment "domain message. note handling of non-ascii chars" ;
+    s:domain :Message ;
+    s:label "subject" ;
+    s:range s:Literal .
+
+:to
+    a rdf:Property ;
+    s:domain :Message ;
+    s:range :Agent ;
+    ss:label "to" .
+
+<mid:000001c2f845$eb8be140$9c0b77ca@xobjects>
+    :date "Tue, 1 Apr 2003 17:50:00 +0800" ;
+    :date_iso "2003-04-02T07:50:00Z" ;
+    :from [
+        :mbox <mailto:yzqu@seu.edu.cn> ;
+        :phrase "Yuzhong Qu"
+    ] ;
+    :received_iso "2003-04-01T17:56:46Z" ;
+    :recipients """public-webont-comments@w3.org
+""" ;
+    :senders """yzqu@seu.edu.cn
+""" ;
+    :subject "typo error in (normative) appendix B of OWL Reference" ;
+    :to [
+        :mbox <mailto:public-webont-comments@w3.org>
+    ] .
+

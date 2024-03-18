@@ -1,0 +1,38 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix h: <http://www.w3.org/1999/xhtml> .
+@prefix s: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix email: <http://www.w3.org/2000/04/maillog2rdf/email#> .
+
+email:addr-spec
+    a rdf:Property ;
+    s:label "Address Specification" .
+
+email:cc
+    a rdf:Property ;
+    s:label "Carbon Copy (cc)" .
+
+email:date
+    a rdf:Property ;
+    s:label "Date" .
+
+email:envelopeFrom
+    a rdf:Property ;
+    s:label "envelopeFrom" .
+
+email:from
+    a rdf:Property ;
+    s:label "From" .
+
+email:phrase
+    a rdf:Property ;
+    s:label "Phrase" .
+
+email:subject
+    a rdf:Property ;
+    s:label "Subject" .
+
+<http://www.w3.org/2000/04/maillog2rdf/email#to>
+    a rdf:Property ;
+    s:label "To" .
+

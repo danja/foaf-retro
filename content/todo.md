@@ -46,3 +46,10 @@ _address dev community + regular Joannes_
 
 - [ ] User Stories
 - [ ] clean up that preso video
+
+### Pages
+
+- [ ] [About](about.md)
+- [x] [Links](links.md)
+- [ ] [Intro/index](index.md)
+- [ ] [Timeline](timeline.md)

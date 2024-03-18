@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<r:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:h="http://www.w3.org/1999/xhtml"
+xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:s="http://www.w3.org/2000/01/rdf-schema#">
+  <r:Property
+  r:about="http://www.w3.org/2000/04/maillog2rdf/email#addr-spec"
+  s:label="Address Specification" />
+
+  <r:Property
+  r:about="http://www.w3.org/2000/04/maillog2rdf/email#phrase"
+  s:label="Phrase" />
+
+  <r:Property
+  r:about="http://www.w3.org/2000/04/maillog2rdf/email#envelopeFrom"
+   s:label="envelopeFrom" />
+
+  <r:Property
+  r:about="http://www.w3.org/2000/04/maillog2rdf/email#date"
+  s:label="Date" />
+
+  <r:Property
+  r:about="http://www.w3.org/2000/04/maillog2rdf/email#subject"
+  s:label="Subject" />
+
+  <r:Property
+  r:about="http://www.w3.org/2000/04/maillog2rdf/email#from"
+  s:label="From" />
+
+  <r:Property
+  r:about="http://www.w3.org/2000/04/maillog2rdf/email#to"
+  s:label="To" />
+
+  <r:Property
+  r:about="http://www.w3.org/2000/04/maillog2rdf/email#cc"
+  s:label="Carbon Copy (cc)" />
+</r:RDF>
+
