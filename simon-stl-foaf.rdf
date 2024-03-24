@@ -1,0 +1,75 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<foaf:Person>
+<foaf:name>Simon St.Laurent</foaf:name>
+<foaf:title>Mr</foaf:title>
+<foaf:firstName>Simon</foaf:firstName>
+<foaf:surname>St.Laurent</foaf:surname>
+<foaf:nick >simonstl</foaf:nick>
+<foaf:nick >simon</foaf:nick>
+<foaf:mbox_sha1sum>966c4daa7a0fe2eefe698b806fb87971c82fe08d</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="http://simonstl.com"/>
+<foaf:depiction rdf:resource="http://www.oreillynet.com/images/people/simon_st_laurent.jpg"/>
+<foaf:workplaceHomepage rdf:resource="http://oreilly.com"/>
+<foaf:schoolHomepage rdf:resource="http://swarthmore.edu"/>
+<foaf:weblog rdf:resource="http://www.advogato.org/person/simonstl/"/>
+<foaf:weblog rdf:resource="http://www.oreillynet.com/pub/au/166"/>
+<foaf:myersBriggs>INTP</foaf:myersBriggs>
+
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Edd Dumbill</foaf:name>
+<foaf:mbox_sha1sum>1ba3bffdd13a136d38b77542f2e26fd1dc0042f2</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="http://heddley.com/edd/foaf.rdf" />
+</foaf:Person>
+</foaf:knows>
+
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Eric van der Vlist</foaf:name>
+<foaf:mbox_sha1sum>98b87f8a811fc2cd78329f06e3d2e2834c2527ee</foaf:mbox_sha1sum>
+</foaf:Person>
+</foaf:knows>
+
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Uche Ogbuji</foaf:name>
+<foaf:mbox_sha1sum>22895cddb2a430bae696dc80eb6a21a10d5cfaf3</foaf:mbox_sha1sum>
+</foaf:Person>
+</foaf:knows>
+
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Kip Hampton</foaf:name>
+<foaf:mbox_sha1sum>205eb2bb193f2dbaa6da66a288ba262714c5ca34</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="http://hampton.ws/kip/foaf.rdf"/>
+</foaf:Person>
+</foaf:knows>
+
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Kendall Clark</foaf:name>
+<foaf:mbox_sha1sum>3862afaaa321622e4015a231c7e30e01f77435ca</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="http://clark.dallas.tx.us/kendall/foaf.rdf"/>
+</foaf:Person>
+</foaf:knows>
+
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Shelley Powers</foaf:name>
+<foaf:firstName>Shelley</foaf:firstName>
+<foaf:surname>Powers</foaf:surname>
+<foaf:nick>Burningbird</foaf:nick>
+<foaf:mbox_sha1sum>d59678de291c9c60d060f6d96732691e2cb5ac6e</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="http://weblog.burningbird.net"/>
+<foaf:depiction rdf:resource="http://weblog.burningbird.net/photos/me.jpg"/>
+<rdfs:seeAlso rdf:resource="http://weblog.burningbird.net/foaf.rdf"/>
+</foaf:Person>
+
+</foaf:knows>
+
+</foaf:Person>
+
+</rdf:RDF>

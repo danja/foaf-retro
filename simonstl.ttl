@@ -1,0 +1,53 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+[]
+    a foaf:Person ;
+    foaf:depiction <http://www.oreillynet.com/images/people/simon_st_laurent.jpg> ;
+    foaf:firstName "Simon" ;
+    foaf:homepage <http://simonstl.com> ;
+    foaf:knows [
+        a foaf:Person ;
+        rdfs:seeAlso <http://heddley.com/edd/foaf.rdf> ;
+        foaf:mbox_sha1sum "1ba3bffdd13a136d38b77542f2e26fd1dc0042f2" ;
+        foaf:name "Edd Dumbill"
+    ], [
+        a foaf:Person ;
+        foaf:mbox_sha1sum "98b87f8a811fc2cd78329f06e3d2e2834c2527ee" ;
+        foaf:name "Eric van der Vlist"
+    ], [
+        a foaf:Person ;
+        foaf:mbox_sha1sum "22895cddb2a430bae696dc80eb6a21a10d5cfaf3" ;
+        foaf:name "Uche Ogbuji"
+    ], [
+        a foaf:Person ;
+        rdfs:seeAlso <http://hampton.ws/kip/foaf.rdf> ;
+        foaf:mbox_sha1sum "205eb2bb193f2dbaa6da66a288ba262714c5ca34" ;
+        foaf:name "Kip Hampton"
+    ], [
+        a foaf:Person ;
+        rdfs:seeAlso <http://clark.dallas.tx.us/kendall/foaf.rdf> ;
+        foaf:mbox_sha1sum "3862afaaa321622e4015a231c7e30e01f77435ca" ;
+        foaf:name "Kendall Clark"
+    ], [
+        a foaf:Person ;
+        rdfs:seeAlso <http://weblog.burningbird.net/foaf.rdf> ;
+        foaf:depiction <http://weblog.burningbird.net/photos/me.jpg> ;
+        foaf:firstName "Shelley" ;
+        foaf:homepage <http://weblog.burningbird.net> ;
+        foaf:mbox_sha1sum "d59678de291c9c60d060f6d96732691e2cb5ac6e" ;
+        foaf:name "Shelley Powers" ;
+        foaf:nick "Burningbird" ;
+        foaf:surname "Powers"
+    ] ;
+    foaf:mbox_sha1sum "966c4daa7a0fe2eefe698b806fb87971c82fe08d" ;
+    foaf:myersBriggs "INTP" ;
+    foaf:name "Simon St.Laurent" ;
+    foaf:nick "simon", "simonstl" ;
+    foaf:schoolHomepage <http://swarthmore.edu> ;
+    foaf:surname "St.Laurent" ;
+    foaf:title "Mr" ;
+    foaf:weblog <http://www.advogato.org/person/simonstl/>, <http://www.oreillynet.com/pub/au/166> ;
+    foaf:workplaceHomepage <http://oreilly.com> .
+
