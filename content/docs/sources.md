@@ -10,8 +10,20 @@ https://yandex.com/search/?text=foaf&lr=144998&search_source=yacom_desktop_commo
 
 Raw blog archive
 
+https://lov.linkeddata.es/dataset/lov/vocabs/foaf
+
 ---
 
 using https://github.com/hartator/wayback-machine-downloader
 
-wayback_machine_downloader  http://rdfwebring.org/
+wayback_machine_downloader http://rdfwebring.org/
+
+---
+
+archive Henry Story's site
+
+citations, books
+
+https://livebook.manning.com/book/linked-data/chapter-4/36
+
+https://lov.linkeddata.es/dataset/lov/agents?q=Ayers

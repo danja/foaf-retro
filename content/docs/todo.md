@@ -6,7 +6,13 @@
 - [ ] fill big unsorted link list
 - [ ] sort big unsorted link list
 
+(SparqlPress)
+(Henry archive)
+(my gmail archive)
+
 ## Research/Aggregation
+
+doc viewer with links inserted for archive.org links
 
 ### Core Docs
 
